@@ -1,0 +1,581 @@
+body
+{
+    -webkit-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box; 
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+/* Start SEction upperbar */
+.upperbar
+{
+    color:white;
+    padding:10px;
+}
+
+.upperbar .phoandmess
+{
+    color:lightgray;
+    font-size:14px;
+    cursor:pointer;
+    transition: all .5s ease-in-out;
+}
+.upperbar .phoandmess:hover
+{
+    color:white;
+}
+
+.upperbar .btntext 
+{
+ color:lightgray;
+    font-size:13px;
+}
+
+.upperbar .btntext .btn
+{
+        padding: .095rem .9rem;
+    border-radius: 0rem;
+  color:white;
+    line-height:23px;
+    font-size:13px;
+    margin-left:10px;
+    background-color: transparent;
+    border-width: 2px ;
+    transition:all .5s ease-in-out;
+}
+
+@media (max-width:576px)
+{
+    .upperbar .btntext .btn
+    {
+        border:none;
+    }
+    .upperbar .btntext 
+    {
+        margin-right:15px;
+    }
+}
+
+
+/* End SEction upperbar */
+
+/* Start SEction Header */
+.head .navbar-brand .brand1
+{
+    font-weight:600;
+        font-size:44px;
+    
+}
+
+.head .navbar-brand .brand2
+{
+    font-weight:lighter;
+        font-size:40px;
+}
+.navbar-toggler i {
+     transition:all .5s ease-in-out;
+}
+
+.navbar-toggler {
+    padding: .35rem .75rem;
+    font-size:2.3rem;
+    margin-top: 15px;
+    border: 0px;
+    border-radius: 0rem;
+}
+
+.navbar-toggler:focus
+{
+    outline:0px;
+}
+
+.head .navbar-expand-lg .navbar-nav .nav-link {
+    font-size:15px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    font-weight:500;
+    margin-right:15px;
+    transition:all .5s ease-in-out;
+}
+
+.head .navbar-expand-lg .navbar-nav .active .nav-link
+{
+    font-weight:bold;
+}
+
+.head .navbar-expand-lg .navbar-nav .nav-link:hover
+{
+        font-weight:bold;
+    transform: translateX(5px);
+}
+.head .navbar-expand-lg .navbar-nav .dropdown-menu
+{
+    display: none;
+}
+.head .navbar-expand-lg .navbar-nav .dropdown:hover .dropdown-menu
+{
+    display:block;
+}
+.head .navbar-expand-lg .navbar-nav .dropdown-menu
+{
+    margin:0px;
+    padding:0px;
+}
+.head .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item
+{
+  font-size:14px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    font-weight:400; 
+    padding: .55rem 1.5rem;
+    background-color: transparent;
+    transition:all .5s ease-in-out;
+}
+
+.head .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:hover
+{
+    color:white;
+   transform:rotateZ(7deg);
+}
+/* End SEction Header */
+
+/* Start SEction Silder */
+.slider
+{
+    width:100%;
+    height:670px;
+    background:url(../../img/slider%201.jpg);
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider .overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(236,29,36, 0.8);
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.slider h1
+{
+    position:absolute;
+    color: white;
+    z-index:3;
+    font-size:120px;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+@media (max-width:768px)
+{
+ .slider h1
+    {
+        font-size:80px;
+    }
+    .slider
+{
+    height:470px;
+    }
+}
+/* End SEction Slider */
+
+/* Start Section Work */
+.work
+{
+    text-align:center;
+    padding-top:80px;
+}
+
+
+.work h2
+{
+    font-size:45px;
+    letter-spacing: 1px;
+    font-weight:bold;
+}
+
+.work p
+{
+    line-height:32px;
+    letter-spacing:1px;
+    color:#616262;
+    padding:15px 140px 30px;
+    font-size:19px;
+    margin-bottom: 40px;
+}
+.work ul li
+{
+    border:1px solid #08526D;
+    text-transform:uppercase;
+    padding:10px 0px; 
+    font-weight:700;
+    cursor:pointer;
+    margin-left:20px;
+    margin-bottom:10px;
+     transition: all .5s ease-in-out;
+}
+.work ul li.active,.work ul li:hover
+{
+    border-width:1px solid  #EC1D24;
+    color:#fff;
+}
+
+.work .rowfirst
+{
+    margin-top: 50px;
+}
+
+.work .row  .mdimg
+{
+   padding: 0px;
+}
+.work .row img
+{
+    width:100%;
+}
+.work img
+{
+    position:relative;
+}
+.work .mdimg .abdo
+{
+    display: none;
+    position:absolute;
+    top:0px;
+    left: 0px;
+    background-color:rgba(3,3,3,0.9);
+    z-index: 3;
+    width: 100%;
+    height:100%;
+    padding:40px;
+    color: white;
+    
+}
+.work .mdimg .abdo .kamal
+{
+    border: 1px solid white;
+        width: 100%;
+    height:100%;
+   padding-top:40%;
+}
+.work .mdimg .abdo .kamal h4
+{
+    color:red;
+}
+.work .mdimg:hover .abdo
+{
+    display: block;
+    cursor: pointer;
+}
+
+/* x small */
+@media (max-width:576px)
+{
+    .work .row img
+{
+    width:70%;
+    margin: 0 auto;
+}
+ 
+    .work ul li
+    {
+        width:45%;
+        margin: 10px auto;
+    }
+    
+}
+/* up to MEdium */
+@media (max-width:991px)
+{
+    .work h2
+{
+    font-size:40px;
+}
+
+.work p
+{
+    padding:15px 30px;
+    width: 100%;
+    font-size:18px;
+    margin-bottom: 20px;
+}
+
+}
+/* small */
+@media (min-width:576px) and (max-width:768px)
+{
+    .work ul li
+{
+    font-size:14px; 
+    padding:10px 7px; 
+    margin-left:12px;
+}
+    
+}
+/* medium */
+@media (min-width:768px) and (max-width:991px)
+{
+    .work ul li
+{
+    font-size:15px; 
+     padding:9px 3px; 
+    margin-left:15px;
+}
+    
+}
+/*End Section Work */
+
+
+/* Start Section Jumbo */
+.jumbooo .jumbotron-fluid
+{
+    color:white;
+}
+.jumbooo .jumbotron
+{
+    padding: 4.7rem 2rem;
+    margin-bottom: 0px;
+}
+
+.jumbooo .jumbotron-fluid button
+{
+    background-color: transparent;
+    color:white;
+    font-weight:bold;
+    padding:10px 40px;
+    border-radius:0px;
+    letter-spacing: 1px;
+    border: 2px solid white;
+     transition: all .5s ease-in-out;
+}
+
+ .jumbooo .jumbotron-fluid button:HOVER
+{
+    border:2px solid white;  
+}
+@media (max-width:768px)
+{
+    .jumbooo .jumbotron-fluid h3
+    {
+        font-size: 25px;
+        
+    }
+    .jumbooo .jumbotron
+{
+    padding: 4rem 1rem;
+    text-align: center;
+}
+    
+    .jumbooo .jumbotron-fluid button
+{
+    margin-top: 20px;
+}
+}
+/* End Section Jumbo */
+
+/* Start Section Footer */
+.footer
+{
+    padding-top: 80px;
+     background-color: #F7F7F7;
+}
+
+.footer .foot h1 .brand1
+{
+    font-weight:600;
+        font-size:44px;
+}
+
+.footer .foot h1 .brand2
+{
+    font-weight:lighter;
+        font-size:40px;
+}
+
+.footer .foot p
+{
+    width:100%;
+    color: #555;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.footer .foot h3 i
+{
+   margin-right:10px;
+    padding:2px 5px;
+    color:white;
+    border-radius:50%;
+}
+
+.footer .foot h3
+{
+    font-size: 15px;
+    font-weight: 500;
+     transition: all .5s ease-in-out;
+}
+.footer .foot h3 a:hover
+{
+    text-decoration:none;
+}
+
+.footer .foot h3:hover {
+      transform: translate(10px);
+    text-decoration:none;
+}
+
+.footer .foot2 h4
+{
+     padding-left:0px;
+}
+
+.footer .foot2 ul li 
+{
+font-weight: 500;
+ letter-spacing: 1px;
+    padding-top:15px;
+    transition:all .5s ease-in-out;
+    cursor: pointer;
+}
+.footer .foot2 ul li:hover
+{
+    transform: translateX(10px);
+}
+
+.footer .foot2 ul li i
+{
+    color:lightgray;
+    margin-right:5px;
+}
+
+
+
+.footer .foot3 h4
+{
+     padding-left:0px;
+    padding-bottom:20px;
+}
+.footer .foot3 h3
+{
+     padding-top:10px;
+    font-size:16px;
+     color:#555;
+    font-weight:normal;
+}
+
+.footer .foot3 h3 span
+{
+    transition:all .5s ease-in-out;
+    cursor: pointer;
+}
+.footer .foot3 h3 span:hover
+{
+    transform: translateX(10px);
+}
+
+.footer .foot4 h4
+{
+     padding-left:0px;
+    padding-bottom:20px;
+    color:#08526D;
+}
+
+.footer .foot4 p
+{
+    width:100%;
+    color: #555;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+}
+.footer .hrr
+{
+   margin-top: 100px;
+}
+.footer .fo .spanfoot
+{
+    margin-right:90px;
+}
+.footer .fo .spanfoot i
+{
+    margin-left: 25px;
+    font-size: 20px;
+    color:#555;
+    transition:all .5s ease-in-out;
+    cursor: pointer;
+}
+.footer .foot4  .btn
+{
+ padding: .5rem 1rem;
+    border-radius: 0rem;
+  color:white;
+    line-height:23px;
+    font-size:17px;
+    margin-top:20px;
+    background-color: #EC1D24;
+}
+.footer .foot4  .btn:hover
+{
+    background-color: #08526D;
+}
+
+.footer .foot4 .form-control {
+    height: calc(1.8em + .85rem + 2px);
+    padding: .375rem .75rem;
+    border-radius: 0rem;
+}
+/* End Section Footer */
+@media (max-width:991px)
+{
+    .footer .foot2 ul li 
+{
+font-size:17px;
+}
+   
+    .footer .foot
+    {
+        margin-bottom:30px;
+    }
+      .footer .foot p
+{
+    width:100%;
+    margin-top: 25px;
+}
+}
+    @media (max-width:576px)
+    {
+         .footer .foot3 h4
+{
+    padding-bottom:0px;
+}
+    .footer .hrr
+{
+   margin-top:60px;
+}
+.footer .fo .spanfoot
+{
+    margin:0 auto;
+}
+.footer .fo .spanfoot i
+{
+    margin-left: 15px;
+    font-size: 19px;
+}
+
+}
+
+/* End Footer */
+

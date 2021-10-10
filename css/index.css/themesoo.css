@@ -1,0 +1,42 @@
+.upperbar ,.feature i:hover ,.overview .btn:HOVER , .table .card .card-body .btn:HOVER
+,.choose .choosediv ,.choose  .choose22 .btn:HOVER ,.jumbooo .jumbotron-fluid button:HOVER
+,.footer .foot h3 i
+{
+    background-color:#08526D;
+}
+
+.head .navbar-brand .brand1 ,.navbar-toggler i ,.head .navbar-expand-lg .navbar-nav .nav-link
+,.head .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item ,.feature h4 ,.work ul li
+,.post .card .card-title ,.table .card .card-body h4 ,.table .card .card-body h3
+,.number .numdiv i ,.number .numdiv h1 ,.footer .foot h1 .brand1 ,.footer .foot2 h4
+,.footer .foot2 ul ,.footer .foot3 h4 ,.footer .foot3 h3 span
+{
+    color:#08526D;
+}
+
+.work ul li
+{
+     border-color:#08526D;
+}
+
+
+.upperbar .btntext .btn ,.work ul li.active,.work ul li:hover ,.choose  .choose22 .btn:HOVER
+{
+    border-color: #EC1D24;
+}
+.upperbar .btntext .btn:hover , .head .navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item:hover
+,.slider h1 span ,.feature i ,.overview .btn ,.work ul li.active,.work ul li:hover
+,.table .card .card-body .h3center ,.table .card .card-body .btn ,.choose .choose22 .btn
+,.jumbooo .jumbotron-fluid
+
+{
+     background-color: #EC1D24;
+}
+.head .navbar-brand .brand2 ,.navbar-toggler i:hover ,.navbar-toggler i:focus ,.post .card .card-link
+,.head .navbar-expand-lg .navbar-nav .nav-link:hover ,.head .navbar-expand-lg .navbar-nav .active .nav-link
+,.number .numdiv h6 ,.footer .foot h1 .brand2 ,.footer .foot h3 a:hover ,.footer .foot h3:hover
+,.footer .foot2 ul li:hover ,.footer .foot3 h3 span:hover ,.footer .fo .spanfoot i:hover
+
+{
+    color:#EC1D24;
+}
